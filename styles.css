@@ -4,7 +4,40 @@ body {
   font-family: 'Electrolize', sans-serif;
 }
 
+/*frontpage*/
+.front-wrapper {
+  width: 50em;
+  height: 60em;
+  border: 2px solid black;
+  margin: auto;
+}
 
+.front-title {
+  text-align: center;
+  margin-top: 5em;
+}
+.easy {
+  border: 2px solid black;
+  margin-left: 12em;
+  margin-right:18em;
+  margin-top: 5px;
+  transform: perspective(200px) rotateY(-12deg);
+
+}
+h3 {
+  text-align: center;
+}
+.hard {
+  border: 2px solid black;
+  margin-left: 18em;
+  margin-right: 12em;
+  margin-top: 5px;
+  transform: perspective(200px) rotateY(12deg);
+
+}
+
+
+/* GAME */
 .wrapper {
   height: 100em;
   width: 65em;
