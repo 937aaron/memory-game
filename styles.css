@@ -1,63 +1,88 @@
+
+body {
+  background-color: #D1CEC5;
+  font-family: 'Electrolize', sans-serif;
+}
+
+
 .wrapper {
   height: 100em;
-  width: 70em;
+  width: 65em;
   border: 1px solid blue;
   margin-left: auto;
   margin-right: auto;
-  background-color: darkgray;
 }
 .title{
   display: block;
-  font-size: 30px;
+  font-size: 43px;
   color: white;
   text-align: center;
+  margin-bottom: 1px;
 }
-.lives {
-  display: inline-block;
+.topbar{
+  margin-left: 0px;
+
+}
+#hearts {
+  display: inline-block;;
   font-size: 16px;
   text-align: left;
-  padding-left: 10px
+  padding-top:0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 0px;
 }
 .time {
-  display: inline-block;
+  display: inline-block;;
   font-size: 16px;
-  text-align: right;
+  padding: 0px;
   float: right;
-  padding-right: 10px;
+  margin-top: 0px;
+  margin-right: 25px;
+
 }
 .card {
   height: 150px;
   width: 150px;
-  background: black;
+  background: #E6E2DF ;
   transition: background 1s, transform 1s;
-  z-index: 5;
   border-radius: 5px;
   padding: 5px;
+  z-index: 5;
 
   display: inline-block;
 }
 
 
 input {
-  width: 50px;
-  height: 50px;
+  width: 150px;
+  height: 150px;
   display: none;
 }
 
 input:checked +.card {
-  background: white;
+  background: #755330;
   transform: rotateY(180deg);
   z-index: 1;
 }
+label {
+  position: relative;
+  vertical-align: middle;
+  margin: auto;
+  display: none;
+}
 
-.fa-anchor{
+.fa {
+  position: relative;
+  color: #E6E2DF;
   z-index: 2;
-  margin-left: 25px;
+  padding: 69px;
 }
 table {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 50px;
+  margin-top: 5px;
+  padding-top: 5px;
 }
 td {
 
