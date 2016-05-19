@@ -8,20 +8,21 @@ body {
 .wrapper {
   height: 100em;
   width: 65em;
-  border: 1px solid blue;
   margin-left: auto;
   margin-right: auto;
 }
 .title{
   display: block;
   font-size: 43px;
-  color: white;
+  color: #E6E2DF;
   text-align: center;
   margin-bottom: 1px;
 }
 .topbar{
-  margin-left: 0px;
 
+}
+.lives {
+  padding-left: 10px;
 }
 #hearts {
   display: inline-block;;
@@ -32,13 +33,20 @@ body {
   padding-right: 0px;
   margin-left: 0px;
 }
+#bulb {
+  display: inline-block;
+  padding: 0px;
+  margin: 0px;
+  font-size: 75px;
+}
 .time {
-  display: inline-block;;
+  display: inline-block;
+  margin-top: -107px;
   font-size: 16px;
   padding: 0px;
   float: right;
-  margin-top: 0px;
-  margin-right: 25px;
+  color: #E6E2DF;
+  float: right;
 
 }
 .card {
