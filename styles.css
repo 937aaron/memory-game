@@ -158,6 +158,7 @@ input {
 input:checked +.card {
   background: #755330;
   transform: rotateY(180deg);
+  /*opacity: 0;*/
   z-index: 1;
 }
 label {
@@ -169,11 +170,16 @@ label {
 
 .fa {
   position: relative;
-  color: #E6E2Df;
+  /*color: #black;*/
+  color:#E6E2DF;
   z-index: 2;
   padding: 69px;
   opacity: 1;
+  /*transition: opacity 3s;*/
 }
+  /*.fa:hover{
+  opacity: 1;
+}*/
 table {
   margin-left: auto;
   margin-right: auto;
